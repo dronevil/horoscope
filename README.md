@@ -1,5 +1,5 @@
 # Birthday Horoscope App
 
-Project for #100Devs 
+Project for **#100Devs**
 
-Basic horoscope app using vanilla JS
+Basic horoscope app using HTML/CSS/JS
