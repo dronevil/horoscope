@@ -1,0 +1,107 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+html {
+  font-family: 'Source Sans Pro', serif;
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+  background-image: url("../images/background.jpg");
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+
+  background-color: rgba(94, 147, 179, 1);
+  color: rgba(255, 255, 255, 1);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
+  transition: 220ms all ease-in-out;
+
+  padding: 10px;
+  margin-top: 25px;
+  min-width: 15ch;
+  min-height: 44px;
+  text-align: center;
+  line-height: 1.1;
+}
+
+button:hover,
+button:active{
+  background: rgba(10, 114, 179, 0.75);
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.125rem rgba(135, 177, 190, 1);
+}
+
+h3 {
+  margin-top: 2rem;
+}
+
+.container {
+  text-align: center;
+  margin-top: 10rem;
+  border: 0.125rem solid rgba(200, 200, 200, 1);
+  border-radius: 1rem;
+  background: rgba(135, 177, 190, 0.6);
+  box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.horoscopeContainer {
+  padding: 5rem 5rem;
+  width: 30rem;
+  height: 30rem;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
