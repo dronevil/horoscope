@@ -1,1 +1,1 @@
-# horoscope
+# Birthday Horoscope App
